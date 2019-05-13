@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="140dp"
+        android:contentDescription="@string/imageAndroid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/androide_alfa" />
+
+    <TextView
+        android:id="@+id/textValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="200dp"
+        android:text="@string/textValor"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageAndroid" />
+
+    <Button
+        android:id="@+id/buttonSumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="272dp"
+        android:background="@color/colorBoton"
+        android:text="@string/textSumar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRestar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="60dp"
+        android:background="@color/colorBoton"
+        android:text="@string/textRestar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonSumar"
+        app:layout_constraintTop_toTopOf="@+id/buttonSumar" />
+
+    <Button
+        android:id="@+id/buttonZoomMas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorBoton"
+        android:text="@string/textZoomMas"
+        app:layout_constraintStart_toStartOf="@+id/buttonSumar"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSumar" />
+
+    <Button
+        android:id="@+id/buttonZoomMenos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorBoton"
+        android:text="@string/textZoomMenos"
+        app:layout_constraintStart_toStartOf="@+id/buttonRestar"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRestar" />
+
+    <Button
+        android:id="@+id/buttonOcultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorBoton"
+        android:text="@string/textOcultar"
+        app:layout_constraintStart_toStartOf="@+id/buttonZoomMas"
+        app:layout_constraintTop_toBottomOf="@+id/buttonZoomMas" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorBoton"
+        android:text="@string/textReset"
+        app:layout_constraintStart_toStartOf="@+id/buttonZoomMenos"
+        app:layout_constraintTop_toBottomOf="@+id/buttonZoomMenos" />
+</android.support.constraint.ConstraintLayout>

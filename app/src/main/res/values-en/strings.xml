@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">2019-Actividad2</string>
+    <string name="textOcultar">hide</string>
+    <string name="textReset">reset</string>
+    <string name="textRestar">substract</string>
+    <string name="textSumar">add</string>
+    <string name="textZoomMas">zoom +</string>
+    <string name="textZoomMenos">zoom -</string>
+</resources>

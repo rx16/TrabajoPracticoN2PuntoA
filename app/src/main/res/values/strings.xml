@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">2019-Actividad2</string>
+    <string name="textValor" translatable="false">0</string>
+    <string name="textSumar">Sumar</string>
+    <string name="textRestar">Restar</string>
+    <string name="textZoomMas">Zoom +</string>
+    <string name="textZoomMenos">zoom -</string>
+    <string name="textOcultar">ocultar</string>
+    <string name="textReset">Reset</string>
+    <string name="imageAndroid" translatable="false">imagen_de-androide</string>
+
+</resources>
